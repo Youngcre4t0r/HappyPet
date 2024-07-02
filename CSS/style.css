@@ -1,0 +1,73 @@
+:root {
+--font-family:"Montserrat", sans-serif;
+--second-family:"Inter", sans-serif;
+}
+body {
+    background-color: #869FF8;
+    font-family: var(--font-family);
+}
+.container {
+    width: 1250px;
+    padding-inline-start: 0 15px;
+    outline: 2px dashed salmon;
+    margin: 0 auto;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+}
+.header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list {
+    display: flex;
+    gap: 30px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 18px;
+    color: #f5ebeb;
+}
+.number {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 15px;
+    color: #000;    
+}
+.hero-list {
+    margin-top: ;
+    display: flex;
+    align-items: center;
+}
+.hero-btn-in-list {
+    border: none;
+    background-color: transparent;
+}
+h1 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 40px;
+    color: #000;
+}
+.hero-paragraph {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+.hero-btn {
+    padding: ;
+    background-color: #F63D3D;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    color: #f5ebeb;
+    border-radius: 31px;
+    border: none;
+}
